@@ -58,7 +58,11 @@ B. ESTIMATION
 
 Estimate the model by executing:
 
-     slda [est] [data] [label] [settings] [alpha] [k] [seeded/random/model_path] [directory]
+     slda [est] [data_path] [label_path] [settings_path] [alpha] [k] ["seeded"/"random"/model_path] [out_path]
+
+For example, this is a specific run of the program, included to illustrate 
+
+     ./slda est ../data/train-data.dat ../data/train-label.dat settings.txt 1 20 random tmp
 
 The saved models are in two files:
 
