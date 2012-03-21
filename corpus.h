@@ -22,6 +22,7 @@
 #ifndef CORPUS_H
 #define CORPUS_H
 
+#include <cstring>  // for NULL
 #include <vector>
 using namespace std;
 
